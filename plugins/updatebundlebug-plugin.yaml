@@ -1,0 +1,8 @@
+image: lcorsettientando/updatebundlebug:0.0.2-SNAPSHOT
+dbms: postgresql
+healthCheckPath: "/management/health"
+roles:
+  - "updatebundlebug-admin"
+  - "conference-admin"
+  - "dog-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here
